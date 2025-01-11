@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow list for dotfiles
+!.zshrc
+
+# Allow list for directories
+!/.zsh/
