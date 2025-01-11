@@ -7,6 +7,9 @@
 # Allow directories
 !*/
 
+# Allow init script
+!init.sh
+
 # Allow list for dotfiles
 !.zshrc
 
