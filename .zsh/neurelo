@@ -1,0 +1,29 @@
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# openjdk for openapi autogen
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+# add postgres/ pg to path
+export PATH="/usr/local/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+# aws mfa autologin
+source ~/aws-mfa-script/alias.sh
+
+# load mfa credentials
+source ~/.token_file
+
+# direnv
+eval "$(direnv hook zsh)"
+
+# ssherino
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+alias sshreach="ssh -i "~/.ssh/james-key-pair.pem" ec2-user@ec2-44-214-179-25.compute-1.amazonaws.com"
+
+# ECR Names
+export QR_REG="123917264134.dkr.ecr.us-east-1.amazonaws.com/query-engine-devel"
+
+

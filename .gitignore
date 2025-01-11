@@ -4,8 +4,11 @@
 # Allow the .gitignore file itself
 !.gitignore
 
+# Allow directories
+!*/
+
 # Allow list for dotfiles
 !.zshrc
 
 # Allow list for directories
-!/.zsh/
+!.zsh/**

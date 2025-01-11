@@ -1,0 +1,16 @@
+# Alias
+# ---
+#
+alias k="kubectl"
+alias h="helm"
+
+# mac OS shortcuts
+alias code="open -a 'Visual Studio Code'"
+
+# ALIAS COMMANDS
+alias ll="ls -la"
+alias grep='grep --color'
+
+# Kubernetes alias
+alias kgp="kubectl get pods"
+alias kgpa="kubectl get --all"
