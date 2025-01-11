@@ -12,3 +12,5 @@
 
 # Allow list for directories
 !.zsh/**
+!.config/mise/**
+!.config/htop/**
