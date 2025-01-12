@@ -18,3 +18,4 @@
 !.zsh/**
 !.config/mise/**
 !.config/htop/**
+!.config/karabiner/**
