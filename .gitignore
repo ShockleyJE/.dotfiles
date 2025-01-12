@@ -12,6 +12,7 @@
 
 # Allow list for dotfiles
 !.zshrc
+!.vimrc
 
 # Allow list for directories
 !.zsh/**
