@@ -10,9 +10,10 @@
 # Allow init script
 !init.sh
 
-# Allow list for dotfiles
+# Allow list for dotfiles/ specific files
 !.zshrc
 !.vimrc
+!.vim/autoload/plug.vim
 
 # Allow list for directories
 !.zsh/**
