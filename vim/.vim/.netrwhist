@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/james/Documents/proj/productive/dev-environment/tasks'
+let g:netrw_dirhist_6='/Users/james/Documents/proj/productive/dev-environment'
+let g:netrw_dirhist_5='/Users/james/Documents/proj/productive'
+let g:netrw_dirhist_4='/Users/james/Documents/proj/productive/dev-environment'
+let g:netrw_dirhist_3='/Users/james/Documents/proj/productive/dev-environment/tasks'
+let g:netrw_dirhist_2='/Users/james/Documents/proj/productive/dev-environment'
+let g:netrw_dirhist_1='/Users/james/Documents/proj/productive/dev-environment/tasks'
+let g:netrw_dirhist_0='/Users/james/Documents/proj/productive/dev-environment'
+let g:netrw_dirhist_9='/Users/james/Documents/proj/productive/dev-environment/tasks'
+let g:netrw_dirhist_8='/Users/james/Documents/proj/productive/dev-environment'

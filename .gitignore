@@ -1,22 +1,20 @@
-# Ignore everything by default
-*
+# # Ignore everything by default
+# *
 
-# Allow the .gitignore file itself
-!.gitignore
+# # Allow the .gitignore file itself
+# !.gitignore
 
-# Allow directories
-!*/
+# # Allow directories
+# !*/
 
-# Allow init script
-!init.sh
+# # Allow init script
+# !init.sh
 
-# Allow list for dotfiles/ specific files
-!.zshrc
-!.vimrc
-!.vim/autoload/plug.vim
+# # Allow list for dotfiles/ specific files
+# !.zshrc
+# !.vimrc
+# !.vim/autoload/plug.vim
 
-# Allow list for directories
-!.zsh/**
-!.config/mise/**
-!.config/htop/**
-!.config/karabiner/**
+# # Allow list for directories
+# !zsh/**
+# !mise/**
