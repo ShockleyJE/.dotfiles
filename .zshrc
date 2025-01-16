@@ -76,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="$PATH:$(go env GOPATH)/bin"
+# export PATH="$PATH:$(go env GOPATH)/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -115,5 +115,7 @@ if [ -f '/Users/james/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/james/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/james/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-eval "$(/Users/james/.local/bin/mise activate zsh)"
+
+# TODO: I'm not sure if these lines are required since I set up oh-my-zsh to use the mise plugin
+#eval "$(/Users/james/.local/bin/mise activate zsh)"
 eval "$(~/.local/bin/mise activate zsh)"
