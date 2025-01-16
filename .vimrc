@@ -42,3 +42,7 @@ vnoremap <leader>y "+y
 nnoremap <leader>y "+y
 " yank the whole file to system clipboard
 nnoremap <leader>Y gg"+yG
+
+" move highlighted lines up/down
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
