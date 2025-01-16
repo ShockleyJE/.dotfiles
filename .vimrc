@@ -40,3 +40,5 @@ vnoremap <leader>p "_dP
 " yank to the system clipboard, may require vim-gtk to be installed on Mac
 vnoremap <leader>y "+y
 nnoremap <leader>y "+y
+" yank the whole file to system clipboard
+nnoremap <leader>Y gg"+yG
