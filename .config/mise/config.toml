@@ -1,4 +1,5 @@
 [tools]
 dotnet = "9.0.101"
+node = "23.6.0"
 ripgrep = "14.1.1"
 usage = "latest"

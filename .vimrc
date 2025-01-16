@@ -6,6 +6,8 @@ set expandtab
 set smartindent
 set number
 set relativenumber
+" search
+set ic
 
 "colorscheme elflord 
 
@@ -29,3 +31,9 @@ nnoremap <leader><CR> :so ~/.vimrc<CR>
 nnoremap  <C-p> :GFiles<CR> 
 nnoremap  <C-j> :cnext<CR> 
 nnoremap  <C-k> :cprev<CR> 
+" when you have yanked text, copy it to a new line below
+nnoremap  <leader>p  o<esc>Pk<CR> 
+" when you have yanked text but don't want to lose it, want to paste it, but
+" don't want to lose your original yank. In essence, it allows us to paste
+" over things without overwriting our yank 
+vnoremap <leader>p "_dP
