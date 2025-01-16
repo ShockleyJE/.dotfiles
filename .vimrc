@@ -18,6 +18,7 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'ayu-theme/ayu-vim' " or other package manager
+Plug 'tpope/vim-fugitive' " or other package manager
 call plug#end()
 
 " color schems
