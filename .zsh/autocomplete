@@ -1,11 +1,11 @@
 # kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 # istioctl
-source ~/.istioctl/tools/_istioctl
+# source ~/.istioctl/tools/_istioctl
 # kubebuilder
-source  ~/.zsh/completion/_kubebuilder
+# source  ~/.zsh/completion/_kubebuilder
 # eksctl
-fpath=($fpath ~/.zsh/completion)
-autoload -U compinit
-compinit
+# fpath=($fpath ~/.zsh/completion)
+# autoload -U compinit
+# compinit
 
