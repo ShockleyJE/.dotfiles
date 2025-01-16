@@ -37,3 +37,6 @@ nnoremap  <leader>p  o<esc>Pk<CR>
 " don't want to lose your original yank. In essence, it allows us to paste
 " over things without overwriting our yank 
 vnoremap <leader>p "_dP
+" yank to the system clipboard, may require vim-gtk to be installed on Mac
+vnoremap <leader>y "+y
+nnoremap <leader>y "+y
