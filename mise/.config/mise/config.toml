@@ -1,5 +1,4 @@
 [tools]
-bitwarden = "cli-v2025.1.0"
 dotnet = "9.0.101"
 neovim = "0.10.3"
 node = "23.6.0"
