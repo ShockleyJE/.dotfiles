@@ -1,0 +1,3 @@
+# source the secrets file encrypted in the dev-environment repo
+source ~/.secrets
+
