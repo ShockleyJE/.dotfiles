@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -f ~/.zsh/aliases ]] && source ~/.zsh/aliases
 [[ -f ~/.zsh/goto ]] && source ~/.zsh/goto
 [[ -f ~/.zsh/functions ]] && source ~/.zsh/functions
-[[ -f ~/.zsh/functions ]] && source ~/.zsh/neurelo
+[[ -f ~/.zsh/functions ]] && source ~/.zsh/motif
 [[ -f ~/.zsh/functions ]] && source ~/.zsh/autocomplete
 
 # The next line updates PATH for the Google Cloud SDK.
