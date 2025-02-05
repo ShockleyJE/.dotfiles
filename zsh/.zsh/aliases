@@ -17,3 +17,9 @@ alias kgpa="kubectl get --all"
 
 # .dotenv aliases
 alias recfg="chmod +x ~/.dotfiles/init.sh && source ~/.zshrc"
+
+# motif aliases
+alias vpn="openvpn3 session-start --config /home/james/.openvpn/james_desktop.ovpn"
+
+# aws sso mfa
+alias mfa="aws sso login"
