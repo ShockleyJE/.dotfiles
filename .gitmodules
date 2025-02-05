@@ -7,3 +7,6 @@
 [submodule "vim/.vim/plugged/ayu-vim"]
 	path = vim/.vim/plugged/ayu-vim
 	url = git@github.com:ayu-theme/ayu-vim.git
+[submodule "vim/.vim/plugged/fzf"]
+	path = vim/.vim/plugged/fzf
+	url = git@github.com:junegunn/fzf.git
