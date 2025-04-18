@@ -84,11 +84,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='vim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -118,4 +118,4 @@ if [ -f '/Users/james/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '
 
 # TODO: I'm not sure if these lines are required since I set up oh-my-zsh to use the mise plugin
 #eval "$(/Users/james/.local/bin/mise activate zsh)"
-eval "$(~/.local/bin/mise activate zsh)"
+eval "$(~/.local/bin/mise activate zsh --shims)"
